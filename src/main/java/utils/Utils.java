@@ -1,8 +1,8 @@
 package utils;
 
-public class Utils{
+public class Utils {
 
-    public  static String generateRandomEmail(){
+    public static String generateRandomEmail(){
         return System.currentTimeMillis() + "@email.com";
     }
 
@@ -13,4 +13,9 @@ public class Utils{
             throw new RuntimeException(e);
         }
     }
+
+
+
+
+
 }
